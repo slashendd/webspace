@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta data end -->
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- font end -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- css end -->
+
+    <!-- unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- unicons end -->
+
+    <title>SlashEnd Web Space</title>
+
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <nav class="navbar glass">
+            <h1>Web Space</h1>
+            <div class="search-box">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="type here ...">
+                    <a href="#filter"><i class="uil uil-search"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- main -->
+    <main>
+        <!-- hero -->
+        <!-- <section>
+            <div class="hero-section">
+                <div class="hero-box">
+                    <div class="box-txt">
+                        <h1>Wellcome to SlashEnd Web Space</h1>
+                    </div>
+                </div>
+            </div>
+            
+        </section> -->
+        <!-- hero end -->
+
+        <!-- filter -->
+        <section class="filter-section" id="filter">
+            <div class="sidebar glass">
+                <ul class="filter-menu">
+                    <li class="filter-item fili glass" data-filter="all">All</li>
+                    <li class="filter-item fili glass" data-filter="company-profile">Company Profile</li>
+                    <li class="filter-item fili glass" data-filter="blog">Blog</li>
+                    <li class="filter-item fili glass" data-filter="marketplace">Marketplace</li>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </ul>
+
+                <div class="logo glass" onclick="redirectToShLink()">
+                    <img src="img/logo.jpeg" alt="">
+                    <p>SlashEnd Home Page</p>
+                </div>
+            </div>
+            
+            <div class="main-box glass">
+                <div class="filter-content">
+                    <!-- company profile -->
+                    <div class="filter-item box glass" data-item="company-profile">
+                        <div class="item-thubmnail">
+                            <img src="img/desktop.jpeg" alt="" class="desktop-view">
+                            <img src="img/mobile.jpeg" alt="" class="mobile-view">
+                        </div>
+    
+                        <div class="item-price-tech">
+                            <p>Rp 20.000</p> <p>HTML/ CSS/ JS</p>
+                        </div>
+    
+                        <div class="item-title">
+                            <p>Company Profile</p>
+                        </div>
+    
+                        <div class="item-btn">
+                            <a href="#">View Page</a>
+                            <a href="#">Buy Source</a>
+                        </div>
+                    </div>
+                    <!-- company profile end -->
+    
+                    <!-- blog -->
+                    <div class="filter-item box glass" data-item="blog">
+                        <div class="item-thubmnail">
+                            <img src="img/desktop.jpeg" alt="" class="desktop-view">
+                            <img src="img/mobile.jpeg" alt="" class="mobile-view">
+                        </div>
+    
+                        <div class="item-price-tech">
+                            <p>Rp 20.000</p> <p>HTML/ CSS/ JS</p>
+                        </div>
+    
+                        <div class="item-title">
+                            <p>Article Blog</p>
+                        </div>
+    
+                        <div class="item-btn">
+                            <a href="#">View Page</a>
+                            <a href="#">Buy Source</a>
+                        </div>
+                    </div>
+                    <!-- blog end -->
+    
+                    <!-- marketplace -->
+                    <div class="filter-item box glass" data-item="marketplace">
+                        <div class="item-thubmnail">
+                            <img src="img/desktop.jpeg" alt="" class="desktop-view">
+                            <img src="img/mobile.jpeg" alt="" class="mobile-view">
+                        </div>
+    
+                        <div class="item-price-tech">
+                            <p>Rp 20.000</p> <p>HTML/ CSS/ JS</p>
+                        </div>
+    
+                        <div class="item-title">
+                            <p>Marketplace</p>
+                        </div>
+    
+                        <div class="item-btn">
+                            <a href="#">View Page</a>
+                            <a href="#">Buy Source</a>
+                        </div>
+                    </div>
+    
+                </div>
+
+            </div>
+        </section>
+        <!-- filter end -->
+
+    </main>
+    <!-- main end -->
+    
+    
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
